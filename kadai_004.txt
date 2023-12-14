@@ -1,0 +1,44 @@
+PS C:\Users\realk> cd ..
+PS C:\Users> cd KADAI
+PS C:\Users\KADAI> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\KADAI
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/12/14     16:36                git_challenge
+
+
+PS C:\Users\KADAI>
+PS C:\Users\KADAI> echo "Hello, world!" >> hello_world
+PS C:\Users\KADAI\git_challenge> git init
+Initialized empty Git repository in C:/Users/KADAI/git_challenge/.git/
+PS C:\Users\KADAI\git_challenge>
+PS C:\Users\KADAI\git_challenge>
+PS C:\Users\KADAI\git_challenge> git add hello_world
+PS C:\Users\KADAI\git_challenge>
+PS C:\Users\KADAI\git_challenge>
+PS C:\Users\KADAI\git_challenge> git commit -m "1回目"
+[master (root-commit) d6e71a5] 1回目
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world
+PS C:\Users\KADAI\git_challenge> echo "こんにちは、世界!" >> hello_world
+PS C:\Users\KADAI\git_challenge> git add hello_world
+PS C:\Users\KADAI\git_challenge> git commit -m "2回目"
+[master 4cb22cc] 2回目
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\KADAI\git_challenge> git log
+commit 4cb22cca62fb4662e54c060071d876386625bd7b (HEAD -> master)
+Author: Kosuke516 <realkousuke5@outlook.jp>
+Date:   Thu Dec 14 16:57:07 2023 +0900
+
+    2回目
+
+commit d6e71a5fb1933a5350d3dde80724e1b39e03709c
+Author: Kosuke516 <realkousuke5@outlook.jp>
+Date:   Thu Dec 14 16:46:43 2023 +0900
+
+    1回目
+PS C:\Users\KADAI\git_challenge>
